@@ -5,6 +5,6 @@ module.exports = {
   // had enabled by egg
   ejs: {
     enable: true,
-    package: 'egg-view-ejs'
-  }
+    package: 'egg-view-ejs',
+  },
 };

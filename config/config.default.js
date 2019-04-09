@@ -25,6 +25,12 @@ module.exports = appInfo => {
     },
   };
 
+  // 添加index的配置
+  config.index = {
+    pageSize: 5,
+    serverUrl: 'https://hacker-news.firebaseio.com/v0', // 这个url好像访问不了
+  };
+
   // add your user config here
   const userConfig = {
     myAppName: 'online-report',
@@ -32,7 +38,7 @@ module.exports = appInfo => {
 
   return {
     ...config,
-    ...userConfig
+    ...userConfig,
   };
 
 };

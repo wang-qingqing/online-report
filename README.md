@@ -40,7 +40,7 @@ $ npm stop
 ### app/service/**
     用于编写业务逻辑层。
 ### app/middleware/**
-    用于编写中间价。
+    用于编写中间件。
 ### app/public/**
     用于放置静态资源。
 ### app/extend/**
